@@ -1,0 +1,5 @@
+MainPackage=C:\Dev\Github\H2O\H2O\bin\ARM\Release\H2O_1.0.1.0_ARM.appx
+ResourcePack=C:\Dev\Github\H2O\H2O\bin\ARM\Release\H2O_1.0.1.0_scale-100.appx
+ResourcePack=C:\Dev\Github\H2O\H2O\bin\ARM\Release\H2O_1.0.1.0_scale-125.appx
+ResourcePack=C:\Dev\Github\H2O\H2O\bin\ARM\Release\H2O_1.0.1.0_scale-150.appx
+ResourcePack=C:\Dev\Github\H2O\H2O\bin\ARM\Release\H2O_1.0.1.0_scale-400.appx

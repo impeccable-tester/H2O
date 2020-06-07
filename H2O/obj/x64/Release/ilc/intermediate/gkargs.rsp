@@ -1,0 +1,7 @@
+/In:"C:\Dev\Github\H2O\H2O\obj\x64\Release\ilc\in"
+/Lib:"C:\Dev\Github\H2O\H2O\obj\x64\Release\ilc\in"
+/Lib:"C:\Program Files (x86)\Microsoft SDKs\UWPNuGetPackages\microsoft.net.native.compiler\1.7.6\tools\x64\ilc\lib\Private"
+/WinMD:"C:\Dev\Github\H2O\H2O\obj\x64\Release\ilc\in\WinMetadata\Windows.winmd"
+/VSTelemetrySessionSettings:"{"IsOptedIn":true,"HostName":"Dev14","AppInsightsInstrumentationKey":"f144292e-e3b2-4011-ac90-20e5c03fbce5","AsimovInstrumentationKey":"AIF-312cbd79-9dbb-4c48-a7da-3cc2a931cb70","AppId":1001,"UserId":"12863a46-070c-4af3-acb0-ba88cb31f923","Id":"789edfcf-c9a4-427a-97e6-05b9c1d0cd49","ProcessStartTime":637270984421154167}"
+/RdXmlPath:"C:\Program Files (x86)\Microsoft SDKs\UWPNuGetPackages\microsoft.net.native.compiler\1.7.6\tools\LibraryXML"
+/RunOnlyPreDR

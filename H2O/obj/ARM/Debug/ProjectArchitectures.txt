@@ -1,0 +1,1 @@
+C:\Dev\Github\H2O\H2O\H2O.csproj;arm
