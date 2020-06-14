@@ -21,7 +21,6 @@ namespace H2O
     {
         public MainPage()
         {
-            //InitializeComponent();
             _ = DoWork();
            
         }
@@ -33,7 +32,7 @@ namespace H2O
                 while (true)
                 {
                     DoMoreWork();
-                    await Task.Delay(new TimeSpan(1,0,0));
+                    await Task.Delay(new TimeSpan(0,0,20));
                     
                 }
             });
@@ -46,15 +45,24 @@ namespace H2O
 
         private static async void ShowToast()
         {
+            // Read toast xml
             XmlDocument doc = new XmlDocument();
-            StorageFile file = await StorageFile.GetFileFromApplicationUriAsync(new Uri("ms-appx:///Toast.xml", UriKind.Absolute));
+            StorageFile file = await StorageFile.GetFileFromApplicationUriAsync(new Uri($"ms-appx:///Toast{RandomNumber()}.xml", UriKind.Absolute));
             IRandomAccessStream readStream = await file.OpenAsync(FileAccessMode.Read);
             XDocument xmldoc = XDocument.Load(readStream.AsStreamForRead());
             var toastTemplate = xmldoc.ToString();
             doc.LoadXml(toastTemplate);
+
+            // Create toast message
             var toast = new ToastNotification(doc);
             _ = ToastNotificationManager.CreateToastNotifier();
             ToastNotificationManager.CreateToastNotifier().Show(toast);
+        }
+
+        public static int RandomNumber()
+        {
+            Random random = new Random();
+            return random.Next(1, 6);
         }
     }
 }

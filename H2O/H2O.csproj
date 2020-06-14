@@ -25,8 +25,9 @@
     <AppxSymbolPackageEnabled>False</AppxSymbolPackageEnabled>
     <GenerateTestArtifacts>True</GenerateTestArtifacts>
     <AppxBundle>Always</AppxBundle>
-    <AppxBundlePlatforms>x86|x64|arm</AppxBundlePlatforms>
+    <AppxBundlePlatforms>x86|x64</AppxBundlePlatforms>
     <HoursBetweenUpdateChecks>0</HoursBetweenUpdateChecks>
+    <AppxPackageDir>C:\Dev\Github\H2O\AppPackages\</AppxPackageDir>
   </PropertyGroup>
   <PropertyGroup Condition="'$(Configuration)|$(Platform)' == 'Debug|x86'">
     <DebugSymbols>true</DebugSymbols>
@@ -139,7 +140,22 @@
     </AppxManifest>
   </ItemGroup>
   <ItemGroup>
-    <Content Include="Assets\DrinkWater.jpg">
+    <Content Include="Assets\1.gif">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Assets\2.gif">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Assets\3.gif">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Assets\4.gif">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Assets\5.gif">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Assets\6.jpg">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </Content>
     <Content Include="Assets\LargeTile.scale-100.png" />
@@ -189,7 +205,12 @@
     <Content Include="Assets\Square44x44Logo.scale-200.png" />
     <Content Include="Assets\Square44x44Logo.targetsize-24_altform-unplated.png" />
     <Content Include="Assets\Wide310x150Logo.scale-200.png" />
-    <Content Include="Toast.xml" />
+    <Content Include="Toast6.xml" />
+    <Content Include="Toast5.xml" />
+    <Content Include="Toast4.xml" />
+    <Content Include="Toast3.xml" />
+    <Content Include="Toast2.xml" />
+    <Content Include="Toast1.xml" />
   </ItemGroup>
   <ItemGroup>
     <ApplicationDefinition Include="App.xaml">
@@ -205,9 +226,6 @@
     <PackageReference Include="Microsoft.NETCore.UniversalWindowsPlatform">
       <Version>6.2.9</Version>
     </PackageReference>
-  </ItemGroup>
-  <ItemGroup>
-    <None Include="H2O_TemporaryKey.pfx" />
   </ItemGroup>
   <PropertyGroup Condition=" '$(VisualStudioVersion)' == '' or '$(VisualStudioVersion)' &lt; '14.0' ">
     <VisualStudioVersion>14.0</VisualStudioVersion>

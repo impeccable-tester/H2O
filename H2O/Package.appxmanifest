@@ -9,13 +9,13 @@
   <Identity
     Name="2273ce34-4408-4a44-9219-021bc4271aa6"
     Publisher="CN=impeccabletester"
-    Version="1.0.1.0" />
+    Version="1.0.6.0" />
 
   <mp:PhoneIdentity PhoneProductId="2273ce34-4408-4a44-9219-021bc4271aa6" PhonePublisherId="00000000-0000-0000-0000-000000000000"/>
 
   <Properties>
     <DisplayName>H2O</DisplayName>
-    <PublisherDisplayName>nsrik</PublisherDisplayName>
+    <PublisherDisplayName>impeccable tester</PublisherDisplayName>
     <Logo>Assets\StoreLogo.png</Logo>
   </Properties>
 

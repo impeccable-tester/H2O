@@ -1,0 +1,26 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<toast>
+  <visual>
+    <binding template="ToastGeneric">
+      <text>H2O</text>
+      <text>Hey! Time to stretch &amp; sip some H2O</text>
+      <image src="Assets\1.gif"/>
+    </binding>
+  </visual>
+  <actions>
+    <input id="snoozeTime" type="selection" defaultInput="15">
+      <selection id="1" content="1 minute"/>
+      <selection id="5" content="5 minutes"/>
+      <selection id="15" content="15 minutes"/>
+    </input>
+    <action
+     activationType="system"
+     arguments="snooze"
+     hint-inputId="snoozeTime"
+     content=""/>
+    <action
+     activationType="system"
+     arguments="dismiss"
+     content=""/>
+  </actions>
+</toast>
