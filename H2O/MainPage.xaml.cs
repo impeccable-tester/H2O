@@ -56,10 +56,5 @@ namespace H2O
             _ = ToastNotificationManager.CreateToastNotifier();
             ToastNotificationManager.CreateToastNotifier().Show(toast);
         }
-
-        private void Button_Click_1(object sender, RoutedEventArgs e)
-        {
-            ShowToast();
-        }
     }
 }
