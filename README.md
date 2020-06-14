@@ -20,3 +20,5 @@ Reminds every hour.
 Hourly reminders can be snoozed for 1/5/15 mins.
 
 Toast message pops up with a health tip too!
+
+[![Watch the video]](https://www.youtube.com/watch?v=Jz9S-6LsXBk)
