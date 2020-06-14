@@ -1,5 +1,15 @@
 # H2O
-![H2O](https://github.com/impeccable-tester/H2O/blob/master/H2O/Assets/4.gif)
+ <div class="row">
+  <div class="column">
+    <img src="https://github.com/impeccable-tester/H2O/blob/master/H2O/Assets/4.gif" width="200" height="200">
+  </div>
+  <div class="column">
+    <img src="https://github.com/impeccable-tester/H2O/blob/master/H2O/Assets/3.gif" width="200" height="200">
+  </div>
+  <div class="column">
+    <img src="https://github.com/impeccable-tester/H2O/blob/master/H2O/Assets/5.gif" width="200" height="200">
+  </div>
+</div> 
 
 **H2O** is a simple application that sends a toast message to windows users reminding 'em to stretch and drink water at regular intervals!
 
