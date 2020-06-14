@@ -32,7 +32,7 @@ namespace H2O
                 while (true)
                 {
                     DoMoreWork();
-                    await Task.Delay(new TimeSpan(0,0,20));
+                    await Task.Delay(new TimeSpan(1,0,0));
                     
                 }
             });
